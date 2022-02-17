@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lorem Ipsum Law</title>
+  </head>
+  <body class="home_background">
+    <nav>
+      <div class="navbar">
+        <a href="./home.html">Home</a>
+        <a href="#news">Our Firm</a>
+        <div class="dropdown">
+          <button class="dropbtn">Practices
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Our Attorneys
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+            <a href="#">Lorem Ipsum</a>
+          </div>
+        </div>
+        <a href="./contact.html">Contact</a>
+        <a class="logolink" href="./home.html"><img class="navLogo" src="./logo.png" alt=""></a>
+      </div>
+    </nav>
+    <div class="homeHeaders">
+      <h1>Lorem Ipsum Dolor Sit Amet</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="home-buttons">
+      <div class="button-container">
+      <a href="./home.html" class="myButton firm">Our Attorneys</a>
+      </div>
+      <div class="button-container">
+      <a href="./home.html" class="myButton attorneys">Our Firm</a>
+      </div>
+      <div class="button-container">
+      <a href="./home.html" class="myButton consultation">Free Consultation</a>
+      </div>
+    </div>
+    <div class="chat-box">
+      <button class="openChatBtn" onclick="openForm()"><i class="fa fa-envelope-o" style="font-size:30px;color:#ffffff;"></i> Chat Now</button>
+        <div class="openChat">
+        <form>
+        <h1>Contact Us Now</h1>
+        <label for="msg">Free Consultations Available Today</label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn close" onclick="closeForm()">
+        Close
+        </button>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
